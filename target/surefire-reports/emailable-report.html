@@ -9,11 +9,47 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">master suit</th></tr>
-<tr><td><a href="#t0">chromeTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,561</td><td></td><td></td></tr>
+<tr><td><a href="#t0">chromeTest</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">3,416</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">master suit</th></tr></tbody><tbody id="t0"><tr><th colspan="4">chromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC001_AccountRegestration</td><td><a href="#m0">verifyAccounrRegistration</a></td><td rowspan="1">1771321402772</td><td rowspan="1">2511</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC002_LoginTest</td><td><a href="#m1">verify_login</a></td><td rowspan="1">1771321406737</td><td rowspan="1">2070</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">master suit</th></tr></tbody><tbody id="t0"><tr><th colspan="4">chromeTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC001_AccountRegestration</td><td><a href="#m0">setup</a></td><td rowspan="1">1771391651318</td><td rowspan="1">2170</td></tr><tr class="failedodd"><td rowspan="1">testCases.TC002_LoginTest</td><td><a href="#m1">setup</a></td><td rowspan="1">1771391653543</td><td rowspan="1">965</td></tr><tr><th colspan="4">chromeTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">testCases.TC001_AccountRegestration</td><td><a href="#m2">tearDown</a></td><td rowspan="1">1771391653539</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">testCases.TC002_LoginTest</td><td><a href="#m3">tearDown</a></td><td rowspan="1">1771391654513</td><td rowspan="1">0</td></tr><tr><th colspan="4">chromeTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testCases.TC001_AccountRegestration</td><td><a href="#m4">verifyAccounrRegistration</a></td><td rowspan="1">1771391653515</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">testCases.TC002_LoginTest</td><td><a href="#m5">verify_login</a></td><td rowspan="1">1771391654510</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>chromeTest</h2><h3 id="m0">testCases.TC001_AccountRegestration#verifyAccounrRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.TC002_LoginTest#verify_login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>chromeTest</h2><h3 id="m0">testCases.TC001_AccountRegestration#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>linux</td><td>chrome</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1351)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:369)
+	at testbase.BaseClass.setup(BaseClass.java:102)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC002_LoginTest#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>linux</td><td>chrome</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1351)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:369)
+	at testbase.BaseClass.setup(BaseClass.java:102)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TC001_AccountRegestration#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.TC002_LoginTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.TC001_AccountRegestration#verifyAccounrRegistration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1351)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:369)
+	at testbase.BaseClass.setup(BaseClass.java:102)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.TC002_LoginTest#verify_login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220)
+	at java.base/java.util.ImmutableCollections$Map1.&lt;init&gt;(ImmutableCollections.java:1351)
+	at java.base/java.util.Map.of(Map.java:1364)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:369)
+	at testbase.BaseClass.setup(BaseClass.java:102)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
