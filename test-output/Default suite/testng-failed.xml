@@ -6,8 +6,8 @@
       <class name="testCases.TC_003_Login_DDT">
         <methods>
           <include name="verify_loginDDT"/>
-          <include name="setup"/>
           <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_003_Login_DDT -->
     </classes>
