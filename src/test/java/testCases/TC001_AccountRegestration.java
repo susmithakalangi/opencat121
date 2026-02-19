@@ -30,9 +30,9 @@ public class TC001_AccountRegestration extends BaseClass
     logger.info("clicked on regester link");
 	AccountRegestration arg=new AccountRegestration(driver);
 	logger.info("providing all the details");
-	arg.setfirstName(randomeString().toUpperCase());
-    arg.setLastName(randomeString().toUpperCase()); 
-    arg.setEmail(randomeString()+"@gmail.com");
+	arg.setfirstName(randomString().toUpperCase());
+    arg.setLastName(randomString().toUpperCase()); 
+    arg.setEmail(randomString()+"@gmail.com");
     arg.settelephone(randomnumber());
     String password=  randomAlphanumeric();
     arg.setPassword(password); 
