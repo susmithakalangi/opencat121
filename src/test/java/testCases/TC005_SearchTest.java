@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pageObjects.Search;
 import testbase.BaseClass;
 
-public class TC_005SearchTest extends BaseClass {
+public class TC005_SearchTest extends BaseClass {
 	@Test
 	public void testSearchFunctionality() {
 		try {
