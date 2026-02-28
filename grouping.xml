@@ -5,7 +5,7 @@
    <run>
     <!--  <include  name="sanity"></include>-->
    <!--  <include  name="Reggression"></include>-->
-      <include  name="Master"></include>
+   <!--    <include  name="Master"></include>-->
    <!-- <exclude=""-->
    </run>
    </groups>
@@ -19,10 +19,12 @@
    <parameter name="os" value="Windows"/>
      <parameter name="browser" value="chrome"/>
     <classes>
-       <class name="testCases.TC001_AccountRegestration"/>
-     <class name="testCases.TC002_LoginTest"/>
+    <!--   <class name="testCases.TC001_AccountRegestration"/>-->
+     <!--<class name="testCases.TC002_LoginTest"/>-->
    <!--  <class name="testCases.TC_003_Login_DDT"/>-->
+         <class name="testCases.TC_005SearchTest"/>
     </classes>
+    
   </test>
   
  </suite> 
