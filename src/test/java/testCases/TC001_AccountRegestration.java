@@ -15,7 +15,7 @@ import testbase.BaseClass;
 
 
 public class TC001_AccountRegestration extends BaseClass
-{
+{	
 @Test(groups = {"reggression","Master"})
   public void verifyAccounrRegistration() 
   {
